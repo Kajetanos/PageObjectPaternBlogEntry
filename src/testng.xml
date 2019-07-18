@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll" >
+    <test name="case1" >
+        <parameter name="port" value="9595" />
+        <classes>
+            <class name="tests.SearchingTest" />
+            <class name="tests.ProductTest" />
+        </classes>
+    </test>
+</suite>
